@@ -17,12 +17,12 @@ int main () {
         scanf("%d", &a[i]);
     }
     
-    // Use two indexes
+    // Use two indices
     int i = 0, j = n - 1;
     int bests = 0, s1 = 0, s2 = 0;
 
     while (i <= j) {
-        // Always increase the 
+        // Always increase the smaller sum
         if (s1 < s2) {
             s1 += a[i];
             ++i;

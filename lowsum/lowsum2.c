@@ -17,7 +17,7 @@ int main () {
         scanf("%d", &a[i]);
     }
 
-    // Use two indexes
+    // Use two indices
     int low = 0, high = n - 1;
     int mind = a[low] + a[high];
     while (low < high) {
